@@ -6,15 +6,15 @@ evaluation, and deployment.
 
 | Project | Type | Problem | Best Model | Key Metric |
 |---|---|---|---|---|
-| [House Price Prediction](./house-price-prediction) | Regression | Predict property price from location/property attributes | Lasso Regression (α=0.13) | R² = 0.921 |
-| [Breast Cancer Classification](./breast-cancer-classification) | Classification | Predict malignant vs. benign diagnosis from biopsy features | Random Forest | Recall = 1.00, ROC AUC = 0.9995 |
-| [Retail Shopper Segmentation](./customer-segmentation-clustering) | Clustering | Segment customers into behavioral shopper groups | K-Means (K=4) | Silhouette = 0.28, ARI = 1.00 (stable) |
+| [House Price Prediction](https://github.com/kavya12ka/Machine-Learning-Projects-Portfolio/tree/main/Regression_HousePricePrediction)  | Regression | Predict property price from location/property attributes | Lasso Regression (α=0.13) | R² = 0.921 |
+| [Breast Cancer Classification](https://github.com/kavya12ka/Machine-Learning-Projects-Portfolio/tree/main/ClassificationAnalysis_BreastCancer)  | Classification | Predict malignant vs. benign diagnosis from biopsy features | Random Forest | Recall = 1.00, ROC AUC = 0.9995 |
+| [Retail Shopper Segmentation](https://github.com/kavya12ka/Machine-Learning-Projects-Portfolio/tree/main/ClusteringAnalysis_RetailShopperSegmentation) | Clustering | Segment customers into behavioral shopper groups | K-Means (K=4) | Silhouette = 0.28, ARI = 1.00 (stable) |
 
 Suggested repo names above — rename to match whatever you actually create on GitHub.
 
 ---
 
-## 1. [House Price Prediction](./https://github.com/kavya12ka/Machine-Learning-Projects-Portfolio/tree/main/Regression_HousePricePrediction) — Regression
+## 1. [House Price Prediction](https://github.com/kavya12ka/Machine-Learning-Projects-Portfolio/tree/main/Regression_HousePricePrediction) — Regression
 
 Predicts residential property prices (Lakhs INR) from 25 property, location, and listing
 features.
@@ -27,7 +27,7 @@ features.
   edges it out slightly while zeroing out weak features.
 - **Tech:** pandas, scikit-learn, statsmodels (VIF), joblib (deployment)
 
-## 2. [Breast Cancer Classification](./[breast-cancer-classification](https://github.com/kavya12ka/Machine-Learning-Projects-Portfolio/tree/main/ClassificationAnalysis_BreastCancer)) — Classification
+## 2. [Breast Cancer Classification](https://github.com/kavya12ka/Machine-Learning-Projects-Portfolio/tree/main/ClassificationAnalysis_BreastCancer) — Classification
 
 Predicts malignant vs. benign diagnosis from 9 biopsy-derived numeric features.
 
@@ -39,7 +39,7 @@ Predicts malignant vs. benign diagnosis from 9 biopsy-derived numeric features.
 - **Tech:** pandas, scikit-learn, imbalanced-learn, joblib (bundled preprocessing + model
   pipeline)
 
-## 3. [Retail Shopper Segmentation](./[customer-segmentation-clustering](https://github.com/kavya12ka/Machine-Learning-Projects-Portfolio/tree/main/ClusteringAnalysis_RetailShopperSegmentation)) — Clustering
+## 3. [Retail Shopper Segmentation](https://github.com/kavya12ka/Machine-Learning-Projects-Portfolio/tree/main/ClusteringAnalysis_RetailShopperSegmentation) — Clustering
 
 Segments retail customers into behavioral groups from 13 spend/engagement features.
 
