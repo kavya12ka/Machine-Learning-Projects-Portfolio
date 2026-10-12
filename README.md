@@ -4,10 +4,6 @@ End-to-end machine learning projects covering regression, classification, cluste
 
 ---
 
-## 📈 [AI Fundamental Stock Analysis](https://github.com/kavya12ka/Machine-Learning-Projects-Portfolio/tree/main/GenAI_FundamentalStockAnalysis)
-
-Analyzed four fiscal years of Microsoft financial statements and five years of price history (growth, margins, ROE/ROA, free cash flow, volatility, drawdown, Sharpe ratio), then built a RAG question-answering system on Gemini embeddings and FAISS — revealing capex rising about 4x from FY2023 to FY2026 while free cash flow fell after FY2024. **Tools:** Python, Pandas, yfinance, FAISS, Gemini API
-
 ## 🏠 [House Price Prediction](https://github.com/kavya12ka/Machine-Learning-Projects-Portfolio/tree/main/Regression_HousePricePrediction)
 
 Predicted property prices (Lakhs INR) from 25 property, location, and listing features, checking multicollinearity with VIF and comparing six modeling approaches — with a tuned Lasso (α = 0.13) reaching R² = 0.921. **Tools:** Python, Pandas, scikit-learn, statsmodels, joblib
